@@ -1,0 +1,236 @@
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 25%;
+  }
+  nav li {
+    list-style-type: none;
+  }
+  
+  nav > ul > li {
+    float: left;
+  }
+  
+  .submenu {
+    display: none;
+  }
+  
+  .subsubmenu {
+    display: none;
+  }
+  nav input[type="checkbox"] {
+    display: none;
+  }
+  
+  .menu-mobile {
+    display: none;
+  }
+  
+  nav {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0)    ;
+    }
+  nav > ul > li {
+    float: left;
+    position: relative;
+  }
+  nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  nav > ul > li > a {
+    padding: 20px 30px;
+    color: #fff;
+  }
+  nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 10000;
+  }
+  .submenu li {
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  .submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+  }
+  
+  .menu-contact:hover {
+    border-top: 5px solid #bbb;
+    background-color: rgba(5, 167, 78, 0.15);
+  }
+  .menu-mission:hover {
+    border-top: 5px solid rgb(10, 234, 166);
+    background-color: rgba(45, 222, 9, 0.15);
+  }
+  .menu-sql:hover {
+    border-top: 5px solid rgb(6, 193, 244);
+    background-color: rgba(6, 192, 244, 0.15);
+  }
+  .menu-php:hover {
+    border-top: 5px solid #5c18da;
+    background-color: #4a2d80;
+  }
+  .menu-concept:hover {
+    border-top: 5px solid rgb(21, 176, 151);
+    background-color: rgba(21, 176, 150, 0.15);
+  }
+  .menu-certifications:hover {
+    border-top: 5px solid rgba(222, 48, 48, 0.89);
+    background-color: rgba(161, 71, 64, 0.468);
+  }
+  nav > ul > li:hover a {
+    padding: 15px 30px 20px 30px;
+  }
+  
+  
+  .menu-mission .submenu {
+    background-color: rgb(24, 247, 124);
+  }
+  .menu-sql .submenu {
+    background-color: #06c1f4;
+  }
+  .menu-concept .submenu {
+    background-color: #15b097;
+  }
+  .menu-php .submenu {
+    background-color: #854fea;
+  }
+  .menu-certifications .submenu {
+    background-color: #d75749;
+  }
+  
+  .submenu li:hover a {
+    color: #eee;
+  }
+  
+  
+  
+  .menu-sql .submenu li:hover {
+    background-color: #0e82a3;
+  }
+  .menu-php.submenu li:hover {
+    background-color: #5c18da;
+  }
+  .menu-concept .submenu li:hover {
+    background-color: #0f8e79;
+  }
+  .menu-mission .submenu li:hover {
+    background-color: rgb(0, 220, 99);
+  }
+
+
+body{
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    width: 100%;
+    border-radius: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.9rem 0;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+nav
+main{
+    background-color: #353;
+    width: 100%;
+    overflow: hidden;
+}
+.Ciel-1{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: calc(50%);
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+}
+.Montagne-2{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: calc(49%);
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+}
+.nuage-1{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: calc(-10%);
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+}
+.nuage-2{
+    position: absolute;
+    z-index: 97;
+    width: 100%;
+    top: calc(-20%);
+    left: calc(21% + 5px);
+    transform: translate(-50%, -50%);
+}
+.nuage-3{
+    position: absolute;
+    z-index: 98;
+    width: 100%;
+    top: calc(-30%);
+    left: calc(95% + 50px);
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    left: 50%;
+    transform: translate(-40%, -70%);
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.text h2{
+    font-weight: 100;
+    font-size: 5.5rem;
+    line-height: 0.48;
+}
+.text h1{
+    z-index: 4;
+    font-weight: 100;
+    font-size: 6rem;
+    line-height: 0.48;
+}
+.Montagne-1{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: calc(48%);
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+}
+.Lac-1{
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    top: calc(47%);
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+}
+.Arbre-1-1{
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+    top: calc(46%);
+    left: calc(50% + 5px);
+    transform: translate(-50%, -50%);
+}
